@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './pascale-amez-unsplash.jpg';
 import './App.css';
 import Coursesales from './Coursesales';
 
@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="myHeaderPic" alt="logo" />
           <h2>Welcome to RKM Course Purchase Page</h2>
         </header>
 
