@@ -34,7 +34,7 @@ class Coursesales extends Component {
           {courses}
 
           <p id="total"> Total: <strong>{this.state.total}</strong></p>
-          
+
         </div>
 
         <Course />
